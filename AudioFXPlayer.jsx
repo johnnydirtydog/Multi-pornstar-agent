@@ -1,6 +1,6 @@
 export default function AudioFXPlayer() {
   const sounds = ['Moan', 'Whisper', 'Spank', 'Climax'];
-  const play = (sound) => new Audio(`/audio/${sound.toLowerCase()}.mp3`).play();
+  const play = (sound) => new Audio(`/${sound.toLowerCase()}.mp3`).play();
 
   return (
     <div className="grid grid-cols-2 gap-4 p-6">
